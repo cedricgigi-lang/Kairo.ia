@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Kairo.IA",
+    "slug": "kairo-ia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/kairo-icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/kairo-adaptive.png",
+        "backgroundColor": "#7C5CFF"
+      },
+      "package": "com.kendricia.kairoia",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "backgroundColor": "#0D0E1A",
+    "splash": {
+      "image": "./assets/kairo-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0E1A"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be564d1a-42b5-40fa-af68-41bbc1b57967"
+      }
+    },
+    "plugins": [
+      "expo-sharing"
+    ]
+  }
+}
